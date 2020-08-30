@@ -6,6 +6,7 @@ import image from '../assets/smart-araromi.jpg';
 import Services from '../Common/Services';
 import Portfolio from  '../Common/Portfolio';
 import Team from '../Common/Team';
+import Contact from '../Pages/Contact'
 
 class Home extends Component {
 
@@ -24,6 +25,7 @@ class Home extends Component {
                 <Services />
                 <Portfolio />
                 <Team />
+                <Contact />
             </div>
         )
     }
